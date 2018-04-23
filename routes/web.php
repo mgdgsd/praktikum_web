@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('/','UserController@index')->name('home');
 Route::get('/start','UserController@start')->name('form_suervei');
+Route::get('/about','UserController@about')->name('about');
+Route::get('/help','UserController@help')->name('help');

@@ -15,4 +15,14 @@ class UserController extends Controller
     {
         return view('user/dashboard');
     }
+
+    public function about()
+    {
+    	return view('about');
+    }
+
+    public function help()
+    {
+        return view('help');
+    }
 }
