@@ -79,7 +79,7 @@
     $status = 'beginner';
     if($status == 'beginner')
     {
-        $('#start_below').html('<div class="container-fluid"><div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3"><div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden"><div class="my-5 p-5"><h2 class="display-5">Mulai sekarang</h2><p class="lead">Siap membuat survei pertama Anda? Gratis dan mudah dengan Suervei.</p><a class="btn btn-primary" href="#">Daftar Disini</a></div></div><div class="mr-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden"><img src="/suervei/resources/assets/img/memulai.png" /></div></div></div>');    
+        $('#start_below').html('<div class="container-fluid"><div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3"><div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden"><div class="my-5 p-5"><h2 class="display-5">Mulai sekarang</h2><p class="lead">Siap membuat survei pertama Anda? Gratis dan mudah dengan Suervei.</p><a class="btn btn-primary" href="#">Daftar Disini</a></div></div><div class="mr-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden"><img src="/suervei/praktikum_web/resources/assets/img/memulai.png" /></div></div></div>');    
     }
 </script>
 @endsection
