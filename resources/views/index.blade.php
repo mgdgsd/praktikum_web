@@ -36,7 +36,7 @@
         <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
             <div class="my-3 p-3">
                 <h2 class="display-5">Dapatkan jawaban cepat</h2>
-                <p class="lead">Membuat sebuah survei kepuasan pelanggan, survei kesehatan, penelitian pasar, skor net promotor, survei kepuasan pegawai, survey pemasaran, survei perencanaan acara, survei pendidikan, dan banyak lagi. </p>
+                <p class="lead">Membuat sebuah survei kepuasan pelanggan, survei kesehatan, penelitian pasar, skor net promotor, survei kepuasan pegawai, survey pemasaran, survei perencanaan acara, survei pendidikan, dan banyak lagi.</p>
             </div>
         </div>
     </div>
