@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-12 col-md">
                     <ul class="list-unstyled fontawe">
-                        <li><a class="text-white" href="#"><i class="fab fa-twitter"></i></a> &nbsp; <a class="text-white" href="#"><i class="fab fa-instagram"></i></a> &nbsp; <a class="text-white" href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a class="text-white" href="https://twitter.com/mgdgsd"><i class="fab fa-twitter"></i></a> &nbsp; <a class="text-white" href="https://www.instagram.com/mgdgsd/"><i class="fab fa-instagram"></i></a> &nbsp; <a class="text-white" href="https://github.com/mgdgsd"><i class="fab fa-github"></i></a></li>
                     </ul>
                     <small class="d-block mb-3">Mgdgsd &copy; 2018</small>
                 </div>
