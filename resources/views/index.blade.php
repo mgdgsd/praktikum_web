@@ -13,7 +13,7 @@
 </style>
 @endsection
 
-@extends('layouts.layout')
+@extends('layouts.home')
 
 @section('content')
 <div id="section_header">
@@ -22,7 +22,7 @@
             <div class="col-sm-12 p-lg-5 mx-auto my-5">
                 <h1 class="display-4 font-weight-normal">Suervei</h1>
                 <p class="lead font-weight-normal">Mendapatkan and mengorganisasi informasi secara gratis</p>
-                <a class="btn btn-primary" href="start">Pergi ke Suervei</a>
+                <a class="btn btn-primary" href="dashboard">Pergi ke Suervei</a>
             </div>
         </div>
     </div>
@@ -57,11 +57,11 @@
 </div>
 
 <div class="container-fluid">
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="mr-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden">
+    <div id="lastrender" class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <img src="{{ url('resources/assets/img/terorganisir.png') }}" />
         </div>
-        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
+        <div class="mr-md-3 pt-3 px-3 px-md-5 overflow-hidden">
             <div class="my-3 p-3">
                 <h2 class="display-5">Disusun &amp; dianalisis</h2>
                 <p class="lead">Tanggapan survei Anda dikumpulkan dalam Formulir dengan rapi dan secara otomatis, disertai info tanggapan waktu nyata dan grafik. Atau, melangkah lebih jauh bersama data Anda dengan melihat semuanya di Spreadsheet.</p>
@@ -76,10 +76,14 @@
 
 @section('js')
 <script type="text/javascript">
-    $status = 'beginner';
-    if($status == 'beginner')
+    $status = 0;
+    if($status == 1)
     {
-        $('#start_below').html('<div class="container-fluid"><div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3"><div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden"><div class="my-5 p-5"><h2 class="display-5">Mulai sekarang</h2><p class="lead">Siap membuat survei pertama Anda? Gratis dan mudah dengan Suervei.</p><a class="btn btn-primary" href="#">Daftar Disini</a></div></div><div class="mr-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden"><img src="/suervei/praktikum_web/resources/assets/img/memulai.png"/></div></div></div>');    
+        $('#start_below').html('<div class="container-fluid"><div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3"><div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden"><div class="my-5 p-5"><h2 class="display-5">Mulai sekarang</h2><p class="lead">Siap membuat survei pertama Anda? Gratis dan mudah dengan Suervei.</p><a class="btn btn-primary" href="#">Daftar Disini</a></div></div><div class="mr-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden"><img src="/suervei/praktikum_web/resources/assets/img/memulai.png"/></div></div></div>');
+    }
+    else
+    {
+        $('#lastrender').css("padding-bottom","80px");
     }
 </script>
 @endsection

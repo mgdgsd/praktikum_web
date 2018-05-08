@@ -16,6 +16,7 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/','UserController@index')->name('home');
-Route::get('/start','UserController@start')->name('form_suervei');
+Route::get('/dashboard','UserController@dashboard')->name('user_dashboard');
 Route::get('/about','UserController@about')->name('about');
 Route::get('/help','UserController@help')->name('help');
+Route::get('/chart','UserController@idk')->name('idk_chart');

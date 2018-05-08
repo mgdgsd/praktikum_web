@@ -14,7 +14,7 @@
 </style>
 @endsection
 
-@extends('layouts.layout')
+@extends('layouts.user_dashboard')
 
 @section('content')
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
@@ -40,7 +40,7 @@
         {
             for($i = 0; $i < my_survei.length; $i++)
             {
-                $('#recent').before('<div class="col-sm-2 pl-md-4 text-center overflow-hidden"><a href="#"><div class="my-3 py-3"><p class="lead" >'+my_survei[$i].title+'<br/></p></div></a></div>');   
+                $('#recent').before('<div class="col-sm-2 pl-md-4 text-center overflow-hidden"><a href="#"><div class="my-3 py-3"><p class="lead" >'+my_survei[$i].title+'<br/></p></div></a></div>');
             }
         }
     });

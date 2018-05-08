@@ -11,7 +11,7 @@ class UserController extends Controller
         return view('index');
     }
 
-    public function start()
+    public function dashboard()
     {
         return view('user/dashboard');
     }
@@ -24,5 +24,10 @@ class UserController extends Controller
     public function help()
     {
         return view('help');
+    }
+
+    public function idk()
+    {
+      return view('chart');
     }
 }
